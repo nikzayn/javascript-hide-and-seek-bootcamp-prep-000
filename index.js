@@ -13,7 +13,7 @@ function deepestChild(){
   return deep;
 }
 function increaseRankBy(n){
-  var rank = document.getElementById("app").querySelectorAll("target");
+  var rank = document.getElementById("app").querySelectorAll("ul.ranked-list ");
   var inc;
   for(let i = 0; i < rank.length; i++){
     
